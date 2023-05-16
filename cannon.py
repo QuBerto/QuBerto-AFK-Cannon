@@ -38,7 +38,7 @@ class OSRSCannon(OSRSBot):
         self.options_builder.add_slider_option("max_cannonballs", "Max cannonballs before click?", 1, 50)
         self.options_builder.add_checkbox_option("combat_types", "Which types?", ["Cannon", "Food", "Prayer"])
         self.options_builder.add_dropdown_option("food","What food to eat?",["None","Lobster","Shark","Manta_ray","Anglerfish"])
-        self.options_builder.add_text_edit_option("drops","Drops you want to pick up. A list seperated by a comma for each item","Coins,Tokkul")
+        # self.options_builder.add_text_edit_option("drops","Drops you want to pick up. A list seperated by a comma for each item","Coins,Tokkul")
    
     def save_options(self, options: dict):
         """
